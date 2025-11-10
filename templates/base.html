@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en" class="h-full">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>{{ title or "CrediLens" }}</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body class="container">
+  <header class="grid">
+    <h2>CrediLens — Agentic 10-K Intelligence</h2>
+    <nav>
+      <ul>
+        <li><a href="{{ url_for('index') }}">Upload</a></li>
+        {% if doc_id %}
+          <li><a href="{{ url_for('dashboard', doc_id=doc_id) }}">Dashboard</a></li>
+          <li><a href="{{ url_for('knowledge_graph', doc_id=doc_id) }}">Knowledge Graph</a></li>
+          <li><a href="{{ url_for('chat', doc_id=doc_id) }}">Chat</a></li>
+          <li><a href="{{ url_for('pdf_viewer', doc_id=doc_id) }}">PDF</a></li>
+        {% endif %}
+      </ul>
+    </nav>
+  </header>
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+  <footer>
+    <small>© CrediLens</small>
+  </footer>
+</body>
+</html>

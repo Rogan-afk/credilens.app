@@ -1,0 +1,14 @@
+Flask
+Flask-Cors
+python-dotenv
+pydantic
+pydantic-settings
+PyYAML
+openai
+httpx
+landingai-ade
+pyvis
+networkx
+markdown
+jinja2
+pyvis

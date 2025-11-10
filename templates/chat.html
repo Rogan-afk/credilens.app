@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+<h3>Chat — {{ doc.company.name or doc_id }}</h3>
+
+<form method="post" action="{{ url_for('chat', doc_id=doc_id) }}">
+  <label>Ask about this 10-K</label>
+  <input type="text" name="q" placeholder="e.g., What drove liquidity score?" required>
+  <button type="submit">Ask</button>
+</form>
+
+{% if answer %}
+  <article>
+    <h5>Answer</h5>
+    <p style="white-space:pre-wrap">{{ answer }}</p>
+  </article>
+{% endif %}
+{% endblock %}

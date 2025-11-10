@@ -1,0 +1,12 @@
+LIQUIDITY:
+  anchors: ["liquidity", "cash", "working capital", "credit facility"]
+COMPETITION:
+  anchors: ["competition", "pricing pressure", "market share"]
+CYBERSECURITY:
+  anchors: ["cybersecurity", "security breach", "data loss", "ransomware"]
+SUPPLY_CHAIN:
+  anchors: ["supply chain", "component shortages", "logistics"]
+INTEREST_RATE:
+  anchors: ["interest rates", "benchmark rates", "variable-rate debt"]
+LEGAL:
+  anchors: ["litigation", "lawsuit", "regulatory", "compliance"]

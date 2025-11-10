@@ -1,0 +1,43 @@
+bands:
+  CURRENT_RATIO: {A_min: 1.8, B_min: 1.3, C_min: 1.1, D_min: 1.0}
+  QUICK_RATIO:   {A_min: 1.3, B_min: 1.0, C_min: 0.8, D_min: 0.7}
+  DEBT_TO_EQUITY:{A_min: 0.6, B_min: 1.0, C_min: 1.5, D_min: 2.0}
+  DEBT_TO_ASSETS:{A_min: 0.2, B_min: 0.3, C_min: 0.5, D_min: 0.7}
+  INTEREST_COVERAGE:{A_min: 6.0, B_min: 3.0, C_min: 2.0, D_min: 1.5}
+  OCF_TO_DEBT:   {A_min: 0.6, B_min: 0.4, C_min: 0.25, D_min: 0.1}
+  FCF_MARGIN:    {A_min: 0.15, B_min: 0.08, C_min: 0.02, D_min: 0.00}
+  GROSS_MARGIN:  {A_min: 0.45, B_min: 0.35, C_min: 0.25, D_min: 0.15}
+  EBIT_MARGIN:   {A_min: 0.15, B_min: 0.10, C_min: 0.05, D_min: 0.03}
+  NET_MARGIN:    {A_min: 0.10, B_min: 0.06, C_min: 0.03, D_min: 0.01}
+  ASSET_TURNOVER:{A_min: 1.2, B_min: 0.9, C_min: 0.6, D_min: 0.3}
+  OCF_TO_CL:     {A_min: 0.7, B_min: 0.5, C_min: 0.3, D_min: 0.2}
+
+ratio_weights:
+  Liquidity:
+    CURRENT_RATIO: 0.5
+    QUICK_RATIO: 0.5
+  Leverage:
+    DEBT_TO_EQUITY: 0.5
+    DEBT_TO_ASSETS: 0.5
+  Coverage:
+    INTEREST_COVERAGE: 1.0
+  CashFlow:
+    OCF_TO_DEBT: 1.0
+  Profitability:
+    FCF_MARGIN: 0.25
+    GROSS_MARGIN: 0.25
+    EBIT_MARGIN: 0.25
+    NET_MARGIN: 0.25
+  Efficiency:
+    ASSET_TURNOVER: 1.0
+  Liquidity2:
+    OCF_TO_CL: 1.0
+
+pillars:
+  Liquidity: 0.2
+  Leverage: 0.15
+  Coverage: 0.15
+  CashFlow: 0.15
+  Profitability: 0.2
+  Efficiency: 0.1
+  Liquidity2: 0.05

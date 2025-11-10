@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block content %}
+<h3>PDF — {{ doc.company.name or doc_id }}</h3>
+<iframe src="{{ pdf_url }}#view=FitH" style="width:100%;height:90vh;border:1px solid #ddd"></iframe>
+<p class="hint">Tip: links from Dashboard/Risks include <code>#page=N</code> anchors for precise citation jumps.</p>
+{% endblock %}
