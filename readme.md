@@ -1,5 +1,5 @@
 # CrediLens: Intelligent Credit & Company Analysis System
-**Tagline:** *Upload a 10-K. Get a 360° Credit & Company Snapshot — instantly.*
+ *Upload a 10-K. Get a 360° Credit & Company Snapshot — instantly.*
 
 ---
 
