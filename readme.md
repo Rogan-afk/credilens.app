@@ -32,7 +32,14 @@ The system integrates:
 - **FAISS vector retrieval** for grounding conversational responses on extracted text.  
 - **Interactive React.js dashboard** for visualization, AI-driven summaries, and downloadable reports.
 
-> ⚠️ **Disclaimer:** This system is intended for research and educational purposes only. It is **not** a financial advisory or credit-rating tool.
+  
+
+>  **Disclaimer:** This is **not** a financial advisory or credit-rating tool. This is merely intended to aid in the analyses of relevant factors as a part of decision making.
+
+
+
+
+![flow](https://github.com/user-attachments/assets/2249d5ad-c528-47a3-b136-b7411509add4)
 
 ---
 
