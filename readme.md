@@ -44,7 +44,7 @@ The system integrates:
 ---
 ## Sample Outputs
 
-> Paste screenshots in this section when demoing. Two sample views are shown below.
+
 
 **Dashboard Overview**
 - Credit Health Score card (e.g., **56 – Weak**)
@@ -53,7 +53,8 @@ The system integrates:
 - **Score Composition** pie chart
 - **Financial & Credit Snapshot** table with per‑ratio comments
 
-![Dashboard Overview](sandbox:/mnt/data/Screenshot 2025-11-11 at 1.02.31 AM.png)
+![Dashboard Overview]<img width="1048" height="732" alt="Screenshot 2025-11-11 at 1 02 31 AM" src="https://github.com/user-attachments/assets/84cbabb4-298f-49f6-9d82-53103a4c7c4a" />
+
 
 **Detail View**
 - **Products & Services** list
@@ -61,7 +62,8 @@ The system integrates:
 - **Management Discussion** excerpt (from MD&A)
 - Right‑side **ratio grid** (Current/Quick/Cash/Gross Margin, etc.) with Good/Moderate/Bad badges
 
-![Detail View](sandbox:/mnt/data/Screenshot 2025-11-11 at 1.03.52 AM.png)
+![Detail View]<img width="1010" height="811" alt="Screenshot 2025-11-11 at 1 03 52 AM" src="https://github.com/user-attachments/assets/8937638a-891c-4d09-b390-53a566564ef3" />
+
 
 ---
 
