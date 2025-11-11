@@ -43,14 +43,14 @@ The architecture merges multimodal extraction, LLM summarization, and interactiv
 ### High-Level Diagram
 ```mermaid
 flowchart TD
-    A[User Uploads 10-K PDF] --> B[ADE Extraction (Landing AI)];
-    B --> C[Structured JSON (Sections, Tables, Metadata)];
-    C --> D[FAISS Vector Store];
-    D --> E[Analysis Engines];
-    E --> F[LLM Summarizer & Scoring];
-    F --> G[React.js Dashboard / Streamlit UI];
-    G --> H[Downloadable PDF Report];
-
+    A["User Uploads 10-K PDF"] --> B["ADE Extraction (Landing AI)"]
+    B --> C["Structured JSON (Sections, Tables, Metadata)"]
+    C --> D["FAISS Vector Store"]
+    D --> E["Analysis Engines"]
+    E --> F["LLM Summarizer & Scoring"]
+    F --> G["React.js Dashboard / Streamlit UI"]
+    G --> H["Downloadable PDF Report"]
+```
 
 ### Core Technologies
 | Layer | Technology | Purpose |
