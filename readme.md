@@ -42,31 +42,30 @@ The system integrates:
 ![flow](https://github.com/user-attachments/assets/2249d5ad-c528-47a3-b136-b7411509add4)
 
 ---
-## Report outputs
+## Sample Outputs
 
-Below are example visualizations from **CrediLens**, showcasing parsed insights from Boeing’s Form 10-K report.
+> Paste screenshots in this section when demoing. Two sample views are shown below.
 
-### Dashboard Overview
-![CrediLens Dashboard](<img width="1048" height="732" alt="Screenshot 2025-11-11 at 1 02 31 AM" src="https://github.com/user-attachments/assets/ee549c83-2e62-4494-a06d-a67c90600e7b" />)
+**Dashboard Overview**
+- Credit Health Score card (e.g., **56 – Weak**)
+- Gauges for **Liquidity**, **Leverage**, and **Cash stress**
+- **Pillar Scores** bar chart (e.g., Profitability, Data quality)
+- **Score Composition** pie chart
+- **Financial & Credit Snapshot** table with per‑ratio comments
 
-Displays the overall **credit health score**, liquidity and leverage gauges, margin profile, cash stress indicators, and pillar-wise score composition derived from the uploaded 10-K.
+![Dashboard Overview](sandbox:/mnt/data/Screenshot 2025-11-11 at 1.02.31 AM.png)
 
-### Financial & Risk Insights
-![Financial & Risk Insights](<img width="1010" height="811" alt="Screenshot 2025-11-11 at 1 03 52 AM" src="https://github.com/user-attachments/assets/e1d8c812-b4f1-4b3c-8733-f3f8b61b80f7" />)
+**Detail View**
+- **Products & Services** list
+- Highlighted **Risk Factors** (free‑text extracted via ADE)
+- **Management Discussion** excerpt (from MD&A)
+- Right‑side **ratio grid** (Current/Quick/Cash/Gross Margin, etc.) with Good/Moderate/Bad badges
 
-Highlights **financial ratios, risk factors, and management discussion** extracted from the filing — including liquidity metrics, margin trends, and qualitative assessments of production, cash flow, and operational challenges.
-
-
-
-
-
-
-
-
-
-
+![Detail View](sandbox:/mnt/data/Screenshot 2025-11-11 at 1.03.52 AM.png)
 
 ---
+
+
 
 ## System Architecture
 
