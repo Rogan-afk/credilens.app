@@ -1,0 +1,14 @@
+// vite.config.ts (or .js)
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+export default defineConfig({
+  plugins: [react()],
+  // Only add root if your index.html is NOT in the project root:
+  // root: 'client',
+  server: {
+    // port is a number (this is fine)
+    port: 5173,
+    strictPort: true
+  }
+})
