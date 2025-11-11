@@ -56,7 +56,7 @@ The system integrates:
 <img width="1048" height="732" alt="Screenshot 2025-11-11 at 1 02 31 AM" src="https://github.com/user-attachments/assets/84cbabb4-298f-49f6-9d82-53103a4c7c4a" />
 
 
-**Detail View**
+**Detailed View**
 - **Products & Services** list
 - Highlighted **Risk Factors** (free‑text extracted via ADE)
 - **Management Discussion** excerpt (from MD&A)
