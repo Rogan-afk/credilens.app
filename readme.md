@@ -273,9 +273,4 @@ credilens.app-main/
 
 ---
 
-## License & Citation
 
-This project is open-sourced under the **MIT License**.  
-If used in research or demonstrations, please cite as:
-
-> Rogan, N. (2025). *CrediLens: Agentic Financial Document Intelligence System using Landing.ai ADE and LLM-based RAG.*
