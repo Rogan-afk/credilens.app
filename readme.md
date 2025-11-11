@@ -40,7 +40,7 @@ The system integrates:
 
 The architecture merges multimodal extraction, LLM summarization, and interactive visualization.
 
-### High-Level Diagram
+### High-Level Overview
 ```mermaid
 flowchart TD
     A["User Uploads 10-K PDF"] --> B["ADE Extraction (Landing AI)"]
